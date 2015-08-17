@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "Squid Thing",
+  "version": "0.0.1",
+  "icons": { "128": "icon.png"},
+  "description": "Provides convenient access to Squid Ring stage rotations くコ:彡",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Squid Thing",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://splatoon.nintendo.net/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://splatoon.nintendo.net/sign_in"],
+      "js": ["notloggedin.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "matches": ["https://splatoon.nintendo.net/schedule"],
+      "js": ["localize.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}

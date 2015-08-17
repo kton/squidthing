@@ -1,0 +1,82 @@
+@media screen and (width: 719px) {
+
+  .contents {
+    vertical-align:text-top !important;
+    text-align:center !important;
+  }
+  .stage-list {
+    display:inline-block !important;
+    vertical-align:top !important;
+    margin:0 20px 30px 20px !important;
+    padding:20px 0 20px !important;
+  }
+
+  .match-type {
+    margin:0 auto !important;
+  }
+
+  .rule-description {
+    margin:20px auto !important;
+  }
+
+  .stage-schedule {
+    margin:14px auto !important;
+    width:auto !important;
+  }
+
+  .icon-regular-match,
+  .icon-earnest-match {
+    height:94px !important;
+  }
+
+  .typography-regular-match,
+  .typography-earnest-match,
+  .typography-rule {
+    background:transparent !important;
+    width:0px !important;
+    height:0px !important;
+  }
+
+  .geso,
+  .headline {
+    display:none !important;
+  }
+
+  .contents {
+    margin-bottom:0 !important;
+  }
+
+  .map-name {
+    position:absolute !important;
+    margin:-40px auto auto 10px !important;
+    padding:5px !important;
+  }
+
+  .map-box + .map-box {
+    margin-top:20px !important;
+  }
+
+  .rule-description {
+    width:304px !important;
+    margin:-70px auto 0 auto !important;
+    padding:5px !important;
+  }
+
+  .stage-schedule,
+  .map-name,
+  .rule-description {
+    background:repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35) 10px,
+      rgba(0, 0, 0, 0.45) 10px,
+      rgba(0, 0, 0, 0.45) 20px
+    ) !important;
+    text-shadow:
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000 !important;
+  }
+
+}
