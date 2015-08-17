@@ -1,21 +1,25 @@
 var dictionary = {
   // Ranked Battle
-  'ガチエリア': 'Splat Zones',
-  'ガチヤグラ': 'Tower Control',
+  'ガチエリア': 'SplatZones',
+  'ガチヤグラ': 'TowerControl',
   'ガチホコ': 'Rainmaker',
 
   // Multiplayer Maps
-  'アロワナモール': 'Arowana Mall',
-  'Ｂバスパーク': 'Blackbelly Skatepark',
-  'ネギトロ炭鉱': 'Bluefin Depot',
-  'モンガラキャンプ場': 'Camp Triggerfish',
-  'モズク農園': 'Kelp Dome',
-  'タチウオパーキング': 'Moray Towers',
-  'ホッケふ頭': 'Port Mackerel',
-  'シオノメ油田': 'Saltspray Rig',
-  'デカライン高架下': 'Urchin Underpass',
-  'ハコフグ倉庫': 'Walleye Warehouse'
+  'アロワナモール': 'ArowanaMall',
+  'Ｂバスパーク': 'BlackbellySkatepark',
+  'ネギトロ炭鉱': 'BluefinDepot',
+  'モンガラキャンプ場': 'CampTriggerfish',
+  'モズク農園': 'KelpDome',
+  'タチウオパーキング': 'MorayTowers',
+  'ホッケふ頭': 'PortMackerel',
+  'シオノメ油田': 'SaltsprayRig',
+  'デカライン高架下': 'UrchinUnderpass',
+  'ハコフグ倉庫': 'WalleyeWarehouse'
 };
+
+for (var entry in dictionary) {
+  dictionary[entry] = chrome.i18n.getMessage(dictionary[entry]);
+}
 
 function getJapanTime() {
   var date = new Date();

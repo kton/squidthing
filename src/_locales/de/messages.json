@@ -1,0 +1,41 @@
+{
+  "SplatZones": {
+    "message": "Herrschaft"
+  },
+  "TowerControl": {
+    "message": "Turm-Kommando"
+  },
+  "Rainmaker": {
+    "message": "Operation Goldfisch"
+  },
+  "ArowanaMall": {
+    "message": "Arowana-Center"
+  },
+  "BlackbellySkatepark": {
+    "message": "Punkasius-Skatepark"
+  },
+  "BluefinDepot": {
+    "message": "Blauflossen-Depot"
+  },
+  "CampTriggerfish": {
+    "message": "Camp Schützenfisch"
+  },
+  "KelpDome": {
+    "message": "Tümmlerkuppel"
+  },
+  "MorayTowers": {
+    "message": "Muränentürme"
+  },
+  "PortMackerel": {
+    "message": "Heilbutt-Hafen"
+  },
+  "SaltsprayRig": {
+    "message": "Bohrinsel Nautilus"
+  },
+  "UrchinUnderpass": {
+    "message": "Dekabahnstation"
+  },
+  "WalleyeWarehouse": {
+    "message": "Kofferfisch-Lager"
+  }
+}

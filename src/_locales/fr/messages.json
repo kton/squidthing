@@ -1,0 +1,41 @@
+{
+  "SplatZones": {
+    "message": "Défense de Zone"
+  },
+  "TowerControl": {
+    "message": "Expédition Risquée"
+  },
+  "Rainmaker": {
+    "message": "Mission Bazookarpe"
+  },
+  "ArowanaMall": {
+    "message": "Centre Arowana"
+  },
+  "BlackbellySkatepark": {
+    "message": "Skatepark Mako"
+  },
+  "BluefinDepot": {
+    "message": "Mine Marine"
+  },
+  "CampTriggerfish": {
+    "message": "Campamento Arowana"
+  },
+  "KelpDome": {
+    "message": "Serre Goémon"
+  },
+  "MorayTowers": {
+    "message": "Tours Girelle"
+  },
+  "PortMackerel": {
+    "message": "Docks Haddock"
+  },
+  "SaltsprayRig": {
+    "message": "Station Doucebrise"
+  },
+  "UrchinUnderpass": {
+    "message": "Passage Turbot"
+  },
+  "WalleyeWarehouse": {
+    "message": "Encrepôt"
+  }
+}

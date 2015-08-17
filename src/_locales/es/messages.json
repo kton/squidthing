@@ -1,0 +1,41 @@
+{
+  "SplatZones": {
+    "message": "Pintazonas"
+  },
+  "TowerControl": {
+    "message": "Torreón"
+  },
+  "Rainmaker": {
+    "message": "Pez dorado"
+  },
+  "ArowanaMall": {
+    "message": "Plazuela del Calamar"
+  },
+  "BlackbellySkatepark": {
+    "message": "Parque Lubina"
+  },
+  "BluefinDepot": {
+    "message": "Mina costera"
+  },
+  "CampTriggerfish": {
+    "message": "Campamento Arowana"
+  },
+  "KelpDome": {
+    "message": "Jardín botánico"
+  },
+  "MorayTowers": {
+    "message": "Torres Merluza"
+  },
+  "PortMackerel": {
+    "message": "Puerto Jurel"
+  },
+  "SaltsprayRig": {
+    "message": "Plataforma Gaviota"
+  },
+  "UrchinUnderpass": {
+    "message": "Parque Viaducto"
+  },
+  "WalleyeWarehouse": {
+    "message": "Almacén Rodaballo"
+  }
+}

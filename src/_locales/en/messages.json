@@ -1,0 +1,41 @@
+{
+  "SplatZones": {
+    "message": "Splat Zones"
+  },
+  "TowerControl": {
+    "message": "Tower Control"
+  },
+  "Rainmaker": {
+    "message": "Rainmaker"
+  },
+  "ArowanaMall": {
+    "message": "Arowana Mall"
+  },
+  "BlackbellySkatepark": {
+    "message": "Blackbelly Skatepark"
+  },
+  "BluefinDepot": {
+    "message": "Bluefin Depot"
+  },
+  "CampTriggerfish": {
+    "message": "Camp Triggerfish"
+  },
+  "KelpDome": {
+    "message": "Kelp Dome"
+  },
+  "MorayTowers": {
+    "message": "Moray Towers"
+  },
+  "PortMackerel": {
+    "message": "Port Mackerel"
+  },
+  "SaltsprayRig": {
+    "message": "Saltspray Rig"
+  },
+  "UrchinUnderpass": {
+    "message": "Urchin Underpass"
+  },
+  "WalleyeWarehouse": {
+    "message": "Walleye Warehouse"
+  }
+}

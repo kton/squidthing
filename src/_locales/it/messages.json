@@ -1,0 +1,41 @@
+{
+  "SplatZones": {
+    "message": "Zone Splat"
+  },
+  "TowerControl": {
+    "message": "Torre Mobile"
+  },
+  "Rainmaker": {
+    "message": "Bazookarp"
+  },
+  "ArowanaMall": {
+    "message": "Centro Commerciale"
+  },
+  "BlackbellySkatepark": {
+    "message": "Pista Polposkate"
+  },
+  "BluefinDepot": {
+    "message": "Molo Mollusco"
+  },
+  "CampTriggerfish": {
+    "message": "Campeggio Totan"
+  },
+  "KelpDome": {
+    "message": "Serra di alghe"
+  },
+  "MorayTowers": {
+    "message": "Torri cittadine"
+  },
+  "PortMackerel": {
+    "message": "Porto Polpo"
+  },
+  "SaltsprayRig": {
+    "message": "Raffineria"
+  },
+  "UrchinUnderpass": {
+    "message": "Periferia urbana"
+  },
+  "WalleyeWarehouse": {
+    "message": "Magazzino"
+  }
+}
