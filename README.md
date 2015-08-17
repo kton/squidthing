@@ -8,7 +8,12 @@
 # Features
 
 - Provides convenient access to Squid Ring stage rotation info via くコ:彡 button
-- North American localization of stage names and ranked battle modes
+- Localization of stage names and ranked battle modes
+  - English (NOA)
+  - German
+  - Spanish
+  - French (NOE)
+  - Italian
 
 # Screenshots
 
@@ -30,3 +35,8 @@ Into:
 - `localize.js` loops through the text on the schedules page and substitutes NA-localized text if applicable
 - `styles.css` overrides the original style sheet in order to provide the UI for the pop-up button
 - `notloggedin.js` simply alerts the user when they are not logged into Squid Ring
+
+# Credits
+
+- [Inkipedia](http://splatoonwiki.org/wiki/Main_Page) for stage/mode localization
+- Reddit user [PommePatate](https://www.reddit.com/r/SplatoonMeta/comments/3hakjy/i_made_a_chrome_extension_that_displays_current/cu5suad), for additional French localization
