@@ -1,8 +1,10 @@
 # Squid Thing
 
-- Chrome extension
 - Must be logged into [Squid Ring](https://splatoon.nintendo.net/) for functionality
-- Install via the [Chrome web store page](https://chrome.google.com/webstore/detail/squid-thing/acladlefcbpicihheonbnonmgdemeoco)
+- Chrome extension
+  - Install via the [Chrome web store page](https://chrome.google.com/webstore/detail/squid-thing/acladlefcbpicihheonbnonmgdemeoco)
+- Firefox extension
+  - Install via the [Firefox add-ons page](https://addons.mozilla.org/en-US/firefox/addon/squid-thing/)
 - Not affiliated with Nintendo
 
 # Features
@@ -32,7 +34,7 @@ Into:
 # Is it safe to use? How does it work?
 
 - This extension fetches the schedules page directly from Squid Ring as an iframe and applies content script overrides
-- `localize.js` loops through the text on the schedules page and substitutes NA-localized text if applicable
+- `localize.js` loops through the text on the schedules page and substitutes localized text if applicable
 - `styles.css` overrides the original style sheet in order to provide the UI for the pop-up button
 - `notloggedin.js` simply alerts the user when they are not logged into Squid Ring
 
