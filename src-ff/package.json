@@ -1,0 +1,12 @@
+{
+  "title":"Squid Thing",
+  "name":"squidthing",
+  "version": "0.0.2",
+  "description": "Provides convenient access to Squid Ring stage rotations くコ:彡",
+  "main": "main.js",
+  "author": "kton",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT"
+}
