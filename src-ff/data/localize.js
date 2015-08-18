@@ -70,7 +70,7 @@ var localizations = {
     'ArowanaMall': 'Centre Arowana',
     'BlackbellySkatepark': 'Skatepark Mako',
     'BluefinDepot': 'Mine Marine',
-    'CampTriggerfish': 'Campamento Arowana',
+    'CampTriggerfish': 'Hippo-Camping',
     'KelpDome': 'Serre Goémon',
     'MorayTowers': 'Tours Girelle',
     'PortMackerel': 'Docks Haddock',
