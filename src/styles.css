@@ -79,4 +79,12 @@
       1px 1px 0 #000 !important;
   }
 
+  .contents > .stage-schedule:first-child {
+    margin-top:0 !important;
+  }
+
+  .stage-schedule {
+    padding:7px !important;
+  }
+
 }
