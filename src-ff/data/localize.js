@@ -26,7 +26,7 @@ var localizations = {
     'BlackbellySkatepark': 'Punkasius-Skatepark',
     'BluefinDepot': 'Blauflossen-Depot',
     'CampTriggerfish': 'Camp Schützenfisch',
-    'FlounderHeights': '',
+    'FlounderHeights': 'Schollensiedlung',
     'KelpDome': 'Tümmlerkuppel',
     'MorayTowers': 'Muränentürme',
     'PortMackerel': 'Heilbutt-Hafen',
