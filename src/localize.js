@@ -9,6 +9,7 @@ var dictionary = {
   'Ｂバスパーク': 'BlackbellySkatepark',
   'ネギトロ炭鉱': 'BluefinDepot',
   'モンガラキャンプ場': 'CampTriggerfish',
+  'ヒラメが丘団地': 'FlounderHeights',
   'モズク農園': 'KelpDome',
   'タチウオパーキング': 'MorayTowers',
   'ホッケふ頭': 'PortMackerel',
