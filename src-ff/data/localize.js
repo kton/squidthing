@@ -137,6 +137,12 @@ for (var entry in dictionary) {
   dictionary[entry] = localizations[language][dictionary[entry]];
 }
 
+// JP splatfest
+dictionary['フェスの詳細は'] = ' '; // festival details
+dictionary['公式サイト フェスページ'] = ' '; // official festival page
+dictionary['をご覧ください。'] = ' ' + // please visit
+  'Stage information will return after Japan\'s Splatfest';
+
 function getJapanTime() {
   var date = new Date();
   var utc = date.getTime() - (date.getTimezoneOffset() * 60000);

@@ -5,6 +5,7 @@
   - Install via the [Chrome web store page](https://chrome.google.com/webstore/detail/squid-thing/acladlefcbpicihheonbnonmgdemeoco)
 - Firefox extension
   - Install via the [Firefox add-ons page](https://addons.mozilla.org/en-US/firefox/addon/squid-thing/)
+  - Note: requires manual updates until reviewed and approved by Mozilla
 - Not affiliated with Nintendo
 
 # Features
@@ -30,6 +31,12 @@ And turns:
 Into:
 
 ![](https://i.imgur.com/M9TcEiY.gif)
+
+# Limitations
+
+- Stage rotation information will be unavailable during Japan's Splatfests
+
+![](https://i.imgur.com/A03GVFK.gif)
 
 # Is it safe to use? How does it work?
 

@@ -84,3 +84,18 @@
 .stage-schedule {
   padding:7px !important;
 }
+
+.contents > .festival:first-child {
+  margin-top:0 !important;
+  padding-top:60px !important;
+  line-height:60px !important;
+  text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000 !important;
+}
+
+.festival-image {
+  margin:0 auto !important;
+}
