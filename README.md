@@ -5,13 +5,12 @@
   - Install via the [Chrome web store page](https://chrome.google.com/webstore/detail/squid-thing/acladlefcbpicihheonbnonmgdemeoco)
 - Firefox extension
   - Install via the [Firefox add-ons page](https://addons.mozilla.org/en-US/firefox/addon/squid-thing/)
-  - Note: requires manual updates until reviewed and approved by Mozilla
 - Not affiliated with Nintendo
 
 # Features
 
 - Provides convenient access to Squid Ring stage rotation info via くコ:彡 button
-- Localization of stage names and ranked battle modes
+- Localization of Splatoon stage names and ranked battle modes
   - English (NOA)
   - German
   - Spanish

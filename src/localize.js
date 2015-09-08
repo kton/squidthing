@@ -59,14 +59,16 @@ strings.forEach(function(string) {
   // 8/17 11:00 ~ 8/17 15:00 -> ending/starting in x hours and x minutes
   if (string.nodeValue.indexOf(':00 ~ ') !== -1) {
 
+    string.parentNode.setAttribute('title', string.nodeValue);
+
     var duration = string.nodeValue.split(' ~ ');
-    var time = getJapanTime();
+    var time = new Date();
     var year = time.getFullYear();
 
     var start = duration[0]; // '8/17 11:00'
     start = start.split(' ');
     start[0] += '/' + year; // 8/17/2015
-    start[1] += ' UTC+0900'; // 11:00 UTC+0900
+    // start[1] += ' UTC+0900'; // 11:00 UTC+0900
     start = start.join(' ');
 
     start = new Date(Date.parse(start)); // converts to local
