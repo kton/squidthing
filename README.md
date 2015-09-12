@@ -33,7 +33,11 @@ Into:
 
 # Limitations
 
-- Stage rotation information will be unavailable during Japan's Splatfests
+- ~~[Stage rotation information](http://www.nintendo.co.jp/wiiu/agmj/stage/index.html) will be unavailable during Japan's Splatfests~~
+  - As of the ボケ vs ツッコミ (2015/9/12 12:00 ～ 9/13 12:00) JP Splatfest, this is no longer true
+  - Squid Ring stage rotation information now appears to be personalized based on NNID
+     - North America NNID displays NA stage rotation during JP Splatfest, rather than the notice pictured below
+
 
 ![](https://i.imgur.com/A03GVFK.gif)
 
