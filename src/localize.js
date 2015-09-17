@@ -10,6 +10,7 @@ var dictionary = {
   'ネギトロ炭鉱': 'BluefinDepot',
   'モンガラキャンプ場': 'CampTriggerfish',
   'ヒラメが丘団地': 'FlounderHeights',
+  'マサバ海峡大橋': 'HammerheadBridge',
   'モズク農園': 'KelpDome',
   'タチウオパーキング': 'MorayTowers',
   'ホッケふ頭': 'PortMackerel',
