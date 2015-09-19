@@ -16,12 +16,17 @@
   - Spanish
   - French (NOE)
   - Italian
+- Displays region-specific Splatfest information, based on your NNID
 
 # Screenshots
 
 In other words, it adds this button:
 
 ![](https://i.imgur.com/MHH2MkZ.gif)
+
+And handles Splatfest display for your region:
+
+![](https://i.imgur.com/08HUkiT.gif)
 
 And turns:
 
@@ -35,6 +40,7 @@ Into:
 
 - ~~[Stage rotation information](http://www.nintendo.co.jp/wiiu/agmj/stage/index.html) will be unavailable during Japan's Splatfests~~
   - As of the ボケ vs ツッコミ (2015/9/12 12:00 ～ 9/13 12:00) JP Splatfest, this is no longer true
+     - Non-JP Splatfest information is now fully supported!
   - Squid Ring stage rotation information now appears to be personalized based on NNID
      - North America NNID displays NA stage rotation during JP Splatfest, rather than the notice pictured below
 

@@ -11,6 +11,20 @@
     padding:20px 0 20px !important;
   }
 
+  .festival-stage-list {
+    width:600px !important;
+  }
+
+  .festival-stage-list .map-type:not(.second) {
+    float:left !important;
+    margin-left:25px !important;
+  }
+
+  .festival-stage-list .map-type.second {
+    float:right !important;
+    margin-right:25px !important;
+  }
+
   .match-type {
     margin:0 auto !important;
   }
@@ -98,7 +112,11 @@
       1px 1px 0 #000 !important;
   }
 
+  .festival + .stage-schedule {
+    display:none !important;
+  }
+
   .festival-image {
-    margin:0 auto !important;
+    margin:-40px auto 0 auto !important;
   }
 }

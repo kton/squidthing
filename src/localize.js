@@ -26,8 +26,7 @@ for (var entry in dictionary) {
 // JP splatfest
 dictionary['フェスの詳細は'] = ' '; // festival details
 dictionary['公式サイト フェスページ'] = ' '; // official festival page
-dictionary['をご覧ください。'] = ' ' + // please visit
-  'Stage information will return after Japan\'s Splatfest';
+dictionary['をご覧ください。'] = ' '; // please visit
 
 function getJapanTime() {
   var date = new Date();
