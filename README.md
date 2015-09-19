@@ -26,7 +26,7 @@ In other words, it adds this button:
 
 And handles Splatfest display for your region:
 
-![](https://i.imgur.com/08HUkiT.gif)
+![](https://i.imgur.com/PRwJgKU.gif)
 
 And turns:
 

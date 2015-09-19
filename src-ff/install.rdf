@@ -6,7 +6,7 @@
     <em:id>squid@thing</em:id>
     <em:type>2</em:type>
     <em:bootstrap>true</em:bootstrap>
-    <em:version>0.0.8</em:version>
+    <em:version>0.0.9</em:version>
     <em:name>Squid Thing</em:name>
     <em:description>Provides convenient access to Squid Ring stage rotations くコ:彡</em:description>
     <em:creator>kton</em:creator>

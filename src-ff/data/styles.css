@@ -2,6 +2,12 @@
   vertical-align:text-top !important;
   text-align:center !important;
 }
+
+.contents > .festival {
+  height:0 !important;
+  margin:0 !important;
+}
+
 .stage-list {
   display:inline-block !important;
   vertical-align:top !important;
@@ -10,17 +16,16 @@
 }
 
 .festival-stage-list {
-  width:600px !important;
+  width:640px !important;
 }
 
-.festival-stage-list .map-type:not(.second) {
-  float:left !important;
-  margin-left:25px !important;
+.festival-stage-list .map-type {
+  width:620px !important;
 }
 
-.festival-stage-list .map-type.second {
-  float:right !important;
-  margin-right:25px !important;
+.festival-stage-list .map-type .map-box {
+  display:inline-block !important;
+  margin:10px 15px !important;
 }
 
 .match-type {
@@ -91,6 +96,14 @@
     1px 1px 0 #000 !important;
 }
 
+.festival-teams {
+  text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000 !important;
+}
+
 .contents > .stage-schedule:first-child {
   margin-top:0 !important;
 }
@@ -115,5 +128,5 @@
 }
 
 .festival-image {
-  margin:-40px auto 0 auto !important;
+  margin:-50px auto 0 auto !important;
 }
