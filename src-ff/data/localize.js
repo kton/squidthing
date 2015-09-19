@@ -61,7 +61,7 @@ var localizations = {
     'BluefinDepot': 'Mina costera',
     'CampTriggerfish': 'Campamento Arowana',
     'FlounderHeights': 'Complejo Medusa',
-    'HammerheadBridge': 'El Puente Salmón',
+    'HammerheadBridge': 'Puente Salmón',
     'KelpDome': 'Jardín botánico',
     'MorayTowers': 'Torres Merluza',
     'PortMackerel': 'Puerto Jurel',
