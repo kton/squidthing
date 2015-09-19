@@ -28,14 +28,6 @@ And handles Splatfest display for your region:
 
 ![](https://i.imgur.com/PRwJgKU.gif)
 
-And turns:
-
-![](https://i.imgur.com/4UwMpLC.gif)
-
-Into:
-
-![](https://i.imgur.com/M9TcEiY.gif)
-
 # Limitations
 
 - ~~[Stage rotation information](http://www.nintendo.co.jp/wiiu/agmj/stage/index.html) will be unavailable during Japan's Splatfests~~
