@@ -1,6 +1,6 @@
 # Squid Thing
 
-- Must be logged into [Squid Ring](https://splatoon.nintendo.net/) for functionality
+- Must be logged into [Squid Ring or SplatNet](https://splatoon.nintendo.net/) for functionality
 - Chrome extension
   - Install via the [Chrome web store page](https://chrome.google.com/webstore/detail/squid-thing/acladlefcbpicihheonbnonmgdemeoco)
 - Firefox extension
@@ -9,8 +9,8 @@
 
 # Features
 
-- Provides convenient access to Squid Ring (JP) and SplatNet (EN) stage rotation info via くコ:彡 button
-- Localization of Squid Ring (JP) Splatoon stage names and ranked battle modes
+- Provides convenient access to Squid Ring and SplatNet stage rotation info via くコ:彡 button
+- Localization of Squid Ring and SplatNet Splatoon stage names and ranked battle modes
   - English (NOA)
   - German
   - Spanish
@@ -46,10 +46,11 @@ And handles Splatfest display for your region:
 
 # Is it safe to use? How does it work?
 
-- This extension fetches the schedules page directly from Squid Ring as an iframe and applies content script overrides
+- The Google Chrome extension fetches the schedules page directly from Squid Ring as an iframe and applies content script overrides
 - `localize.js` loops through the text on the schedules page and substitutes localized text if applicable
 - `styles.css` overrides the original style sheet in order to provide the UI for the pop-up button
 - `notloggedin.js` simply alerts the user when they are not logged into Squid Ring
+- The Mozilla Firefox extension functions in a similar manner, but places the UI in a native pop-up without the need for an intermediate iframe
 
 # Credits
 
