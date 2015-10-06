@@ -85,14 +85,14 @@ strings.forEach(function(string) {
       start = start.split(/\s+/);
       start[0] += '/' + year; // 10/05/2015
 
-      if (start[3] === 'p.m') {
+      if (start[3] === 'p.m.') {
         var starttime = start[2].split(':');
         var starthour = parseInt(starttime[0],10);
 
         starthour += 12;
         starttime[0] = starthour;
 
-        start[3] = starttime.join(':');
+        start[2] = starttime.join(':');
       }
 
       if (start[4].indexOf('(') !== -1 && start[4].indexOf(')') !== -1) {
