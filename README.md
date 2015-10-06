@@ -9,14 +9,19 @@
 
 # Features
 
-- Provides convenient access to Squid Ring stage rotation info via くコ:彡 button
-- Localization of Splatoon stage names and ranked battle modes
+- Provides convenient access to Squid Ring (JP) and SplatNet (EN) stage rotation info via くコ:彡 button
+- Localization of Squid Ring (JP) Splatoon stage names and ranked battle modes
   - English (NOA)
   - German
   - Spanish
   - French (NOE)
   - Italian
 - Displays region-specific Splatfest information, based on your NNID
+- Converts stage rotation times to local time and reformats it for easier reading: `current stages` and `starting in x hours and x minutes`
+  - original Squid Ring (JP) time format
+     - 8/17 11:00 ~ 8/17 15:00
+  - original SplatNet (EN)
+     - 10/05 at 11:00 p.m. (PDT) ~ 10/06 at 3:00 a.m. (PDT)
 
 # Screenshots
 
