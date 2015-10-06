@@ -143,6 +143,27 @@ for (var entry in dictionary) {
   dictionary[entry] = localizations[language][dictionary[entry]];
 }
 
+// for non-English speakers
+if (dictionary['ガチエリア'] !== 'Splat Zones') {
+
+  var terms = [
+    // Ranked Battle
+    'Splat Zones','Tower Control','Rainmaker',
+
+    // Multiplayer Maps
+    'Arowana Mall','Blackbelly Skatepark','Bluefin Depot',
+    'Camp Triggerfish','Flounder Heights','Hammerhead Bridge',
+    'Kelp Dome','Moray Towers','Port Mackerel',
+    'Saltspray Rig','Urchin Underpass','Walleye Warehouse'
+  ];
+
+  terms.forEach(function(term) {
+    dictionary[term] = term.replace(/\s/g, '');
+    dictionary[term] = localizations[language][dictionary[term]];
+  });
+
+}
+
 // JP splatfest
 dictionary['フェスの詳細は'] = ' '; // festival details
 dictionary['公式サイト フェスページ'] = ' '; // official festival page

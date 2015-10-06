@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Squid Thing",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "default_locale": "en",
   "icons": { "128": "icon.png"},
   "description": "Provides convenient access to Squid Ring and SplatNet stage rotations くコ:彡",
