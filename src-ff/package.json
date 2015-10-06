@@ -1,8 +1,8 @@
 {
   "title":"Squid Thing",
   "name":"squidthing",
-  "version": "0.0.9",
-  "description": "Provides convenient access to Squid Ring stage rotations くコ:彡",
+  "version": "0.1.0",
+  "description": "Provides convenient access to Squid Ring and SplatNet stage rotations くコ:彡",
   "main": "main.js",
   "author": "kton",
   "engines": {

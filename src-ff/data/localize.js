@@ -176,21 +176,57 @@ strings.forEach(function(string) {
     string.nodeValue = dictionary[string.nodeValue];
   } else
 
-  // 8/17 11:00 ~ 8/17 15:00 -> ending/starting in x hours and x minutes
-  if (string.nodeValue.indexOf(':00 ~ ') !== -1) {
+  // time handler
+  if (string.nodeValue.indexOf(' ~ ') !== -1 &&
+      (string.nodeValue.indexOf(':00 ~ ') !== -1 || string.nodeValue.indexOf(') ~ ') !== -1)) {
 
     string.parentNode.setAttribute('title', string.nodeValue);
 
     var duration = string.nodeValue.split(' ~ ');
     var time = new Date();
     var year = time.getFullYear();
+    var start = duration[0]; // '8/17 11:00' OR '10/05 at 11:00 p.m. (PDT)'
 
-    var start = duration[0]; // '8/17 11:00'
-    start = start.split(' ');
-    start[0] += '/' + year; // 8/17/2015
-    // start[1] += ' UTC+0900'; // 11:00 UTC+0900
+
+    // handler for japanese time format: 8/17 11:00 ~ 8/17 15:00
+    if (string.nodeValue.indexOf(':00 ~ ') !== -1) { // japanese time format (NNID time)
+
+      start = start.split(' ');
+      start[0] += '/' + year; // 8/17/2015
+      // start[1] += ' UTC+0900'; // 11:00 UTC+0900
+    }
+
+    // handler for english time format: 10/05 at 11:00 p.m. (PDT) ~ 10/06 at 3:00 a.m. (PDT)
+    if (string.nodeValue.indexOf(') ~ ') !== -1) {
+
+      // requires /\s+/ because:
+      // - p.m.: ["10/05","at","11:00","p.m.","(PDT)"]
+      // - a.m.: ["10/06","at","","3:00","a.m.","(PDT)"]
+      start = start.split(/\s+/);
+      start[0] += '/' + year; // 10/05/2015
+
+      if (start[3] === 'p.m') {
+        var starttime = start[2].split(':');
+        var starthour = parseInt(starttime[0],10);
+
+        starthour += 12;
+        starttime[0] = starthour;
+
+        start[3] = starttime.join(':');
+      }
+
+      if (start[4].indexOf('(') !== -1 && start[4].indexOf(')') !== -1) {
+        start[4] // (PDT)
+          .replace('(','') // PDT)
+            .replace(')',''); // PDT
+      }
+
+      start.splice(3,1); // remove a.m./p.m.
+      start.splice(1,1); // remove 'at'
+
+    }
+
     start = start.join(' ');
-
     start = new Date(Date.parse(start)); // converts to local
 
     var diff = {ms: start - new Date()};
