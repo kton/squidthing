@@ -28,13 +28,13 @@ if (dictionary['ガチエリア'] !== 'Splat Zones') {
 
   var terms = [
     // Ranked Battle
-    'Splat Zones','Tower Control','Rainmaker',
+    'Splat Zones', 'Tower Control', 'Rainmaker',
 
     // Multiplayer Maps
-    'Arowana Mall','Blackbelly Skatepark','Bluefin Depot',
-    'Camp Triggerfish','Flounder Heights','Hammerhead Bridge',
-    'Kelp Dome','Moray Towers','Port Mackerel',
-    'Saltspray Rig','Urchin Underpass','Walleye Warehouse'
+    'Arowana Mall', 'Blackbelly Skatepark', 'Bluefin Depot',
+    'Camp Triggerfish', 'Flounder Heights', 'Hammerhead Bridge',
+    'Kelp Dome', 'Moray Towers', 'Port Mackerel',
+    'Saltspray Rig', 'Urchin Underpass', 'Walleye Warehouse'
   ];
 
   terms.forEach(function(term) {

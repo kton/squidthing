@@ -1,3 +1,6 @@
+// used to work around Content Security Policy (CSP), an anti-XSS measure
+// this is _required_ to embed the stage rotations in an iframe due to the way
+// Chrome popups are structured and the 'X-Frame-Options' ->'SAMEORIGIN' header
 chrome.webRequest.onHeadersReceived.addListener(
   function(data) {
     var headers = data.responseHeaders;

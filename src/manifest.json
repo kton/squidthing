@@ -15,9 +15,6 @@
     "webRequestBlocking",
     "https://splatoon.nintendo.net/*"
   ],
-  "background": {
-    "scripts": ["background.js"]
-  },
   "content_scripts": [
     {
       "matches": ["https://splatoon.nintendo.net/sign_in"],
