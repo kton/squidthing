@@ -31,6 +31,8 @@ In other words, it adds this button:
 
 And handles Splatfest display for your region:
 
+![](https://i.imgur.com/0VEM9tu.gif)
+
 ![](https://i.imgur.com/PRwJgKU.gif)
 
 # Limitations
