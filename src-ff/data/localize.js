@@ -164,7 +164,7 @@ if (dictionary['ガチエリア'] !== 'Splat Zones') {
   ];
 
   terms.forEach(function(term) {
-    dictionary[term] = term.replace(/\s/g, '');
+    dictionary[term] = term.replace(/\s/g, '').replace('\'', '');
     dictionary[term] = localizations[language][dictionary[term]];
   });
 
