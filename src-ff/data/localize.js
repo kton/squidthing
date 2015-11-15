@@ -29,6 +29,7 @@ var localizations = {
     'FlounderHeights': 'Schollensiedlung',
     'HammerheadBridge': 'Makrelenbrücke',
     'KelpDome': 'Tümmlerkuppel',
+    'MuseumdAlfonsino': 'Pinakoithek',
     'MorayTowers': 'Muränentürme',
     'PortMackerel': 'Heilbutt-Hafen',
     'SaltsprayRig': 'Bohrinsel Nautilus',
@@ -46,6 +47,7 @@ var localizations = {
     'FlounderHeights': 'Flounder Heights',
     'HammerheadBridge': 'Hammerhead Bridge',
     'KelpDome': 'Kelp Dome',
+    'MuseumdAlfonsino': 'Museum d\'Alfonsino',
     'MorayTowers': 'Moray Towers',
     'PortMackerel': 'Port Mackerel',
     'SaltsprayRig': 'Saltspray Rig',
@@ -63,6 +65,7 @@ var localizations = {
     'FlounderHeights': 'Complejo Medusa',
     'HammerheadBridge': 'Puente Salmón',
     'KelpDome': 'Jardín botánico',
+    'MuseumdAlfonsino': 'Museo del Pargo',
     'MorayTowers': 'Torres Merluza',
     'PortMackerel': 'Puerto Jurel',
     'SaltsprayRig': 'Plataforma Gaviota',
@@ -80,6 +83,7 @@ var localizations = {
     'FlounderHeights': 'Lotissement Filament',
     'HammerheadBridge': 'Pont Esturgeon',
     'KelpDome': 'Serre Goémon',
+    'MuseumdAlfonsino': 'Galeries Guppy',
     'MorayTowers': 'Tours Girelle',
     'PortMackerel': 'Docks Haddock',
     'SaltsprayRig': 'Station Doucebrise',
@@ -97,6 +101,7 @@ var localizations = {
     'FlounderHeights': 'Cime Sogliolose',
     'HammerheadBridge': 'Ponte Sgombro',
     'KelpDome': 'Serra di alghe',
+    'MuseumdAlfonsino': 'Museo di Cefalò',
     'MorayTowers': 'Torri cittadine',
     'PortMackerel': 'Porto Polpo',
     'SaltsprayRig': 'Raffineria',
@@ -132,6 +137,7 @@ var dictionary = {
   'ヒラメが丘団地': 'FlounderHeights',
   'マサバ海峡大橋': 'HammerheadBridge',
   'モズク農園': 'KelpDome',
+  'キンメダイ美術館': 'MuseumdAlfonsino',
   'タチウオパーキング': 'MorayTowers',
   'ホッケふ頭': 'PortMackerel',
   'シオノメ油田': 'SaltsprayRig',
@@ -153,7 +159,7 @@ if (dictionary['ガチエリア'] !== 'Splat Zones') {
     // Multiplayer Maps
     'Arowana Mall', 'Blackbelly Skatepark', 'Bluefin Depot',
     'Camp Triggerfish', 'Flounder Heights', 'Hammerhead Bridge',
-    'Kelp Dome', 'Moray Towers', 'Port Mackerel',
+    'Kelp Dome', 'Museum d\'Alfonsino', 'Moray Towers', 'Port Mackerel',
     'Saltspray Rig', 'Urchin Underpass', 'Walleye Warehouse'
   ];
 

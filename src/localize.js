@@ -12,6 +12,7 @@ var dictionary = {
   'ヒラメが丘団地': 'FlounderHeights',
   'マサバ海峡大橋': 'HammerheadBridge',
   'モズク農園': 'KelpDome',
+  'キンメダイ美術館': 'MuseumdAlfonsino',
   'タチウオパーキング': 'MorayTowers',
   'ホッケふ頭': 'PortMackerel',
   'シオノメ油田': 'SaltsprayRig',
@@ -33,7 +34,7 @@ if (dictionary['ガチエリア'] !== 'Splat Zones') {
     // Multiplayer Maps
     'Arowana Mall', 'Blackbelly Skatepark', 'Bluefin Depot',
     'Camp Triggerfish', 'Flounder Heights', 'Hammerhead Bridge',
-    'Kelp Dome', 'Moray Towers', 'Port Mackerel',
+    'Kelp Dome', 'Museum d\'Alfonsino', 'Moray Towers', 'Port Mackerel',
     'Saltspray Rig', 'Urchin Underpass', 'Walleye Warehouse'
   ];
 
